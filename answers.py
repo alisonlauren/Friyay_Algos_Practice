@@ -63,7 +63,7 @@ findSecretNum(user_input, 33)
 ## will randomly generate "yes", "no", "maybe one day", etc.
 
 user_input1 = input("Ask magic eight ball a question: ")
-magic8_answers = ["yes", "no", "not in a million years", "keep dreaming", "oh for sure, you got it", "Knowing you, I wouldn't"]
+magic8_answers = ["yes", "no", "not in a million years", "keep dreaming", "oh for sure, you got it", "Knowing you, I don't think so"]
 # print(random.choice(magi))
 
 def askMagic(input, list):
@@ -72,6 +72,15 @@ def askMagic(input, list):
         break
 
 askMagic(user_input, magic8_answers)
+
+user_input2 = input("Ask Lachlan a question: ")
+lachlan_answers = ["it depends", "well, it depends", "in that case- it depends", "hmm, depends honestly!"]
+def askLachlan(list):
+    while True:
+        print(random.choice(list))
+        break
+
+askLachlan(lachlan_answers)
 
 
 
