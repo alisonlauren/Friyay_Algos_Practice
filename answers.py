@@ -83,15 +83,3 @@ def askLachlan(list):
 askLachlan(lachlan_answers)
 
 
-
-
-
-
-    
-
-
-
-
-
-
-
